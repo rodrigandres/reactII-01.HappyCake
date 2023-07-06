@@ -12,7 +12,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="*" element={<NotFound />} />
+          <Route path="*" element={<NotFound />} className="text-center" />
         </Routes>
       </BrowserRouter>
     </>

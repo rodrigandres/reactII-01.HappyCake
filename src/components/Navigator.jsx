@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Navigator() {
   return (
     <Navbar bg="danger" expand="md" data-bs-theme="dark">
-      <Container className="ts">
+      <Container className="opposite-bar">
         <Navbar.Brand>
           <Link to="/" className="text-white text-decoration-none">Happy Cake 🍰</Link>
         </Navbar.Brand>
